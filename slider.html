@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    />
+    <script src="https://kit.fontawesome.com/38554ff06d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="slider.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="slider-main-body">
+        <div class="slider-body">
+            <!-- Swiper -->
+            <div class="swiper mySwiper">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <div class="slide-text">
+                            <div class="h2">
+                                <p>
+                                    “At the risk of seeming ridiculous, let me say that the true revolutionary is guided by a great feeling of love. It is impossible to think of a genuine revolutionary lacking this quality.”
+                                </p>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span>― Ernesto "Che" Guevara</span>
+                            
+                        </div>
+                        <div class="slide-image">
+                            <div class="image-para">
+                                <img src="img/che guevara.jpg" alt="">
+                                <div class="sano">
+                                    <span>Che Guevara</span>
+                                    <p>“We cannot be sure of having something to live for unless we are willing to die for it.”</p>
+                                </div>
+                                
+                            </div>
+                            <div class="logos">
+                                <span>Delinquents :</span>
+                                <img src="img/google.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-text">
+                            <div class="h2">
+                                <p>
+                                    “No one wants war, Carlito. Especially when they know they would lose.”
+                                </p>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span> <strong>―Pablo Emilio Escobar Gaviria</strong></span>
+                            
+                        </div>
+                        <div class="slide-image">
+                            <div class="image-para">
+                                <img src="img/pablo escobar.jpg" alt="">
+                                <div class="sano">
+                                    <span>Pablo Escobar</span>
+                                    <p>“Everyone has a price, the important thing is to find out what it is.”</p>
+                                </div>
+                                
+                            </div>
+                            <div class="logos">
+                                <span>Delinquents :</span>
+                                <img src="img/google.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="slide-text">
+                            <div class="h2">
+                                <p>
+                                "JProbably one of the most mentioned characters even if he already passed away is Shinichiro. He inspired an entire generation of delinquents"
+                                </p>
+                            </div>
+                            <div class="stars">
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                                <i class="fa-solid fa-star"></i>
+                            </div>
+                            <span> <strong>Mikey</strong></span>
+                            
+                        </div>
+                        <div class="slide-image">
+                            <div class="image-para">
+                                <img src="img/shinichiro.jpg" alt="">
+                                <div class="sano">
+                                    <span>Shinichiro Sano</span>
+                                    <p>As a gang leader, Shinichiro was known to be very charismatic and would improve people not by fear or power but by inspiring them and gaining their trust.</p>
+                                </div>
+                                
+                            </div>
+                            <div class="logos">
+                                <span>Delinquents :</span>
+                                <img src="img/you-insta.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="swiper-button-next"></div>
+            <div class="swiper-button-prev"></div>
+            <div class="swiper-pagination"></div>
+        </div>
+    </div>
+    <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+    <script>
+        var swiper = new Swiper(".mySwiper", {
+            slidesPerView: 1,
+            // spaceBetween: 30,
+            slidesPerGroup: 1,
+            loop: true,
+            loopFillGroupWithBlank: false,
+            pagination: {
+            el: ".swiper-pagination",
+            clickable: true
+            },
+            navigation: {
+            nextEl: ".swiper-button-next",
+            prevEl: ".swiper-button-prev"
+            }
+        });
+    </script>
+</body>
+</html>
